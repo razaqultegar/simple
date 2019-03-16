@@ -1,0 +1,182 @@
+/*
+Theme Name: Simple Theme
+Theme URI: https://github.com/razaqultegar/simple
+Author: Razaqultegar
+Author URI: https://razaqultegar.web.id/
+Description: This theme was created to facilitate you in writing, designed in a clean and responsive. Focusing on writing is a difficult thing, hopefully with this theme you can reduce your website design.
+Requires at least: WordPress 4.9.6
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Tags: one-column, accessibility-ready, featured-images, footer-widgets, sidebar-widgets, clean, white, focus, simple
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body{
+  margin: 5% auto;
+  width: 60%;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  font-family: 'Oxygen', sans-serif;
+  color: rgb(87, 87, 87);
+}
+
+body.darkmode {
+  background: rgb(57, 57, 57);
+  color: rgb(227, 227, 227);
+}
+
+body.darkmode a{
+  color: rgb(227, 227, 227);
+}
+
+.is-hidden{
+  display: none;
+}
+
+a{
+  color: rgb(87, 87, 87);
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+#theme {
+  font-size: 25px;
+}
+
+#theme:hover {
+  cursor: pointer
+}
+
+.landing{
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.links p{
+  margin-top: 0px;
+}
+
+.is-avatar{
+  border-radius: 50%;
+  margin-left: 100px;
+}
+
+h3{
+  margin-bottom: 5px;
+}
+
+.columns{
+  display: flex;
+}
+
+.blog{
+  width: 80%;
+}
+
+.widget{
+  width: 30%;
+}
+
+blockquote {
+  border-left: 3px solid gray;
+  padding-left: 5px;
+  font-style: italic;
+}
+
+.attachment-post-thumbnail {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ins {
+  background-color: #fff9c0;
+  text-decoration: none;
+}
+
+pre {
+  background-color: rgba(0,0,0,.01);
+  border: 1px solid rgba(51,51,51,.1);
+  max-width: 100%;
+  overflow: auto;
+  padding: .8em;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+pre{
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  margin-bottom: 0px;
+  outline: 0;
+  vertical-align: baseline;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+footer{
+  text-align: center;
+  margin-top: 10%;
+  line-height: 25px;
+}
+
+footer span:hover{
+  color: red;
+  cursor: default;
+}
+
+footer a{
+  color: rgb(87, 87, 87);
+}
+
+@media only screen and (max-width: 760px) {
+  body {
+    width: 90%;
+  }
+  .is-avatar{
+    display: none;
+  }
+  .landing{
+    display: block;
+    font-size: 0.9rem;
+  }
+  .columns{
+    display: block;
+  }
+  .blog{
+  	width: 100%;
+  }
+  .widget{
+  	width: 100%;
+  }
+  footer{
+    text-align: center;
+    margin-top: 10%;
+    line-height: 25px;
+  }
+}
