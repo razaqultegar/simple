@@ -10,7 +10,9 @@
               <a target="_blank" href="mailto:myrazaqul@gmail.com"> Email </a>
           </h2>
         </div>
-        <img src="<?php echo get_template_directory_uri() . '/img/foto.jpg' ?>" alt="foto Razaqul Tegar" width="150" height="150" class="is-avatar">
+        <div class="is-gravatar">
+          <?php $admin_email = get_option('admin_email'); echo get_avatar( $admin_email, 100 ); ?>
+        </div>
       </div>
 
       <br><hr>
