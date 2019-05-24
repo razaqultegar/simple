@@ -1,7 +1,10 @@
+
 Simple Theme
 ====
 
 [![Version](https://img.shields.io/badge/version-1.0-orange.svg)](https://github.com/razaqultegar/simple/releases) [![WordPress](https://img.shields.io/wordpress/v/akismet.svg)]() [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://github.com/razaqultegar/simple/blob/master/LICENSE)
+
+![Screenshot](screenshot.png)
 
 A simple minimal WordPress theme built with only what is needed to survive
 
