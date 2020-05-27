@@ -12,4 +12,4 @@ Simple is a super minimal theme, both front end and back end. adding no bloat wh
 
 ### Usage
 
-Download the <a href="https://github.com/razaqultegar/simple/releases">zip</a> package of the theme and install either automatically through the WordPress Dashboard > Appearance tab, or by uploading the simple theme folder to your WordPress/wp-content/themes directory.
+Download the <a href="https://github.com/razaqultegar/simple-wordpress/releases">zip</a> package of the theme and install either automatically through the WordPress Dashboard > Appearance tab, or by uploading the simple theme folder to your WordPress/wp-content/themes directory.
